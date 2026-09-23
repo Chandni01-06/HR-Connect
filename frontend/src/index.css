@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+/* Professional HR Management System - Dark Purple & Primary Pink Theme */
+:root {
+  --dark-purple: #3B1E3A;
+  --lighter-purple: #45203F;
+  --bg-main: #F5F3F4;
+  --card-bg: #FFFFFF;
+  --primary-pink: #D94F7A;
+  --light-pink: #F8DCE5;
+  --dark-text: #2D2D35;
+  --secondary-grey: #6B6870;
+  --border-color: #E5DDE2;
+}
+
+body {
+  background-color: #F5F3F4;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  color: #2D2D35;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F5F3F4;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E5DDE2;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D94F7A;
+}
